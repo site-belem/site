@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belém do Pará - Portal de Vídeos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Belém do Pará</h1>
+            <nav>
+                <ul>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#comentarios">Comentários</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Descubra a Cidade das Mangueiras</h2>
+            <p>Explore a cultura, gastronomia e as belezas da capital paraense através de vídeos selecionados.</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="videos" class="video-gallery">
+            <h3>Galeria de Vídeos</h3>
+            <div class="video-grid">
+                <div class="video-card">
+                    <iframe src="https://www.youtube.com/embed/eyKr42V-3Qs" frameborder="0" allowfullscreen></iframe>
+                    <p>Principais Pontos Turísticos</p>
+                </div>
+                <div class="video-card">
+                    <iframe src="https://www.youtube.com/embed/MGByV09dSXU" frameborder="0" allowfullscreen></iframe>
+                    <p>Roteiro na Cidade</p>
+                </div>
+                <div class="video-card">
+                    <iframe src="https://www.youtube.com/embed/l-hk1Zr92Ts" frameborder="0" allowfullscreen></iframe>
+                    <p>Belém e a COP30</p>
+                </div>
+                <div class="video-card">
+                    <iframe src="https://www.youtube.com/embed/HABjav553ko" frameborder="0" allowfullscreen></iframe>
+                    <p>Cultura e Gastronomia</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="comentarios" class="comments-section">
+            <h3>Deixe seu Comentário</h3>
+            <form id="comment-form">
+                <input type="text" id="user-name" placeholder="Seu nome" required>
+                <textarea id="user-comment" placeholder="O que você achou de Belém?" required></textarea>
+                <button type="submit">Enviar Comentário</button>
+            </form>
+            <div id="comments-list">
+                <!-- Comentários aparecerão aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Portal Belém do Pará. Orgulho de ser paraense.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
