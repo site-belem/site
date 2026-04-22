@@ -51,15 +51,16 @@
         </section>
 
         <section id="comentarios" class="comments-section">
-            <h3>Deixe seu Comentário</h3>
-            <form id="comment-form">
-                <input type="text" id="user-name" placeholder="Seu nome" required>
-                <textarea id="user-comment" placeholder="O que você achou de Belém?" required></textarea>
-                <button type="submit">Enviar Comentário</button>
-            </form>
-            <div id="comments-list">
-                <!-- Comentários aparecerão aqui -->
-            </div>
+            <h3>Comentários</h3>
+            <p style="margin-bottom: 20px; font-size: 0.9rem; color: #666;">Participe da conversa! Os comentários são gerenciados via GitHub.</p>
+            <script src="https://utteranc.es/client.js"
+                repo="site-belem/site"
+                issue-term="pathname"
+                label="comentário"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+            </script>
         </section>
     </main>
 
